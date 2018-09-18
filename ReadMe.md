@@ -6,29 +6,28 @@ ESRI ArcGIS Pro 2.x Add-In which produces various data outputs for the generatio
 **Installation**
 1.	Download the .esriAddinX file listed above. 
 2.	Open ArcGIS Pro and either start a new project or open an existing one. 
-2.	Click the blue ëProjectí button. 
-3.	Click ëAdd-In Managerí in the menu.
-4.	Click ëOptionsí tab and ëAdd Folderí button. 
+2.	Click the blue ‚ÄòProject‚Äô button. 
+3.	Click ‚ÄòAdd-In Manager‚Äô in the menu.
+4.	Click ‚ÄòOptions‚Äô tab and ‚ÄòAdd Folder‚Äô button. 
 5.	Navigate to the folder location of the .esriAddinX file.
 
 **Running the Tool**
-1.	Go back to the main window displaying the map, etc. where there should be a tab called ìKGS Toolsî as shown below.
-2.	To use the Add-In, click the ìBuild Profileî button. 
+1.	Go back to the main window displaying the map, etc. where there should be a tab called ‚ÄúKGS Tools‚Äù as shown below.
+2.	To use the Add-In, click the ‚ÄúBuild Profile‚Äù button. 
 3.	Once the sketch tool (cursor will be crosshairs) is fully enabled, click any two points on the shapefile or feature class being used for geologic map unit information and approve the sketch once satisfied with the line. 
-4.	Fill in the form(s) options and click ìCreate Profileî button on the form to run the tool. Detailed progress bar information should appear while the tool runs. If errors occur which impede the completion of the tool, message boxes detailing the error will open. If the tool successfully runs to completion, a message box will open informing the user of the location of the files created. 
-5.	To disable the Sketch tool upon completion of the tool, click the ìExploreî button under the ëMapí tab, shown below.
+4.	Fill in the form(s) options and click ‚ÄúCreate Profile‚Äù button on the form to run the tool. Detailed progress bar information should appear while the tool runs. If errors occur which impede the completion of the tool, message boxes detailing the error will open. If the tool successfully runs to completion, a message box will open informing the user of the location of the files created. 
+5.	To disable the Sketch tool upon completion of the tool, click the ‚ÄúExplore‚Äù button under the ‚ÄòMap‚Äô tab, shown below.
 
 **Credits**
 
-Tool Originally created 24Jul07 by: James L. Poelstra
-Email: james.poelstra@umontana.edu
-This code is directly based on work by:
-Michael Moex Maxelon, Geologisches Institut, ETH Zentrum,8092 Z¸rich, Switzerland
+* Tool Originally created 24Jul07 by: James L. Poelstra, Email: james.poelstra@umontana.edu
+* This code is directly based on work by: Michael Moex Maxelon, Geologisches Institut, ETH Zentrum,8092 Z√ºrich, Switzerland
 Dec 14 2004 http://e-collection.ethbib.ethz.ch/show?type=bericht&nr=377
-With additional code contributions by: Chris Rae's VBA Code 19/5/99 Archive - http://chrisrae.com/vba 
+* With additional code contributions by: Chris Rae's VBA Code 19/5/99 Archive - http://chrisrae.com/vba 
 
-Originally written in VBA
-Converted to VB.net for use in ArcMap 10.x (version 2.0), April 2015 by: Kristen Jordan- Koenig, Kansas Data Access and Support Center	Email: kristen@kgs.ku.edu
-Update for ArcGIS Pro (version 3.0) performed by Emily Bunse, GRA Cartographic Services (Aug. 2017-May 2018), Email: egbunse@gmail.com
+* Originally written in VBA
+* Converted to VB.net for use in ArcMap 10.x (version 2.0), April 2015 by: 
+Kristen Jordan- Koenig, Kansas Data Access and Support Center, Kansas Geological Survey	Email: kristen@kgs.ku.edu
+* Update for ArcGIS Pro (version 3.0) performed by Emily Bunse, GRA Cartographic Services, Kansas Geological Survey (Aug. 2017-May 2018), Email: egbunse@gmail.com
 
 
