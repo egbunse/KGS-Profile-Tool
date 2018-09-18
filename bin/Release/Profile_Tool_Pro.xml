@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Profile_Tool_Pro
+</name>
+</assembly>
+<members>
+<member name="T:Profile_Tool_Pro.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Profile_Tool_Pro.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Profile_Tool_Pro.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Profile_Tool_Pro.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:Profile_Tool_Pro.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="P:Profile_Tool_Pro.Module1.Current">
+ <summary>
+ Retrieve the singleton instance to this module here
+ </summary>
+</member>
+<member name="M:Profile_Tool_Pro.Module1.CanUnload">
+ <summary>
+ Called by Framework when ArcGIS Pro is closing
+ </summary>
+ <returns>False to prevent Pro from closing, otherwise True</returns>
+</member>
+</members>
+</doc>

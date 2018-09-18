@@ -1,0 +1,37 @@
+﻿<ArcGIS defaultAssembly="Profile_Tool_Pro.dll" defaultNamespace="Profile_Tool_Pro" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{2e171cfa-71f6-41ac-b7ee-29a910b6ddb9}" version="1.0" desktopVersion="2.0.8933">
+    <Name>Profile_Tool_Pro</Name>
+    <Description>Creates various data projects for geologic profiles</Description>
+    <Image>Images\ProfileTool_VB.png</Image>
+    <Author>Emily Bunse</Author>
+    <Company>Kansas Geological Survey- Cartographic Services</Company>
+    <Date>7/21/2017 2:51:19 PM, 2017</Date>
+    <Subject>Map Authoring</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="Profile_Tool_Pro_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <tab id="Profile_Tool_Pro_Tab1" caption="KGS Tools" keytip="PT">
+          <group refID="Profile_Tool_Pro_Group1"/>
+        </tab>
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="Profile_Tool_Pro_Group1" caption="Profile Tool" keytip="PT">
+          <button refID="Profile_Tool" size="large" />
+          <!-- host controls within groups -->
+          <button refID="Profile_Tool_Pro_Start" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <button id="Profile_Tool_Pro_Start" caption="Build Profile" className="ProfileTool" loadOnClick="true" largeImage="Images\ProfileTool_VB.png" keytip="BP">
+          <tooltip heading="Build Profile">Create a geologic profile.<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>
